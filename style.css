@@ -299,6 +299,7 @@ strong { font-weight: 700; }
     text-shadow: none;
     background-color: #F4CA16;
 }
+}
 ::-moz-selection {
     color: #ffffff;
     text-shadow: none;
