@@ -239,7 +239,9 @@
 @media (min-width: 481px) and (max-width: 767px){
 	/* -------------- Header-area ----------- */
 
-
+h1, h2, h3,h4{
+	font-size: 20px;
+}
 	#info {
 		margin-top: 24px;
 		position: absolute;
@@ -282,7 +284,7 @@
 		z-index: -1;
 		position: relative;
 	}
-	.carousel-captions h1 { font-size: 40px; }
+	.carousel-captions h1 h2 h3  { font-size: 25px; }
 	/* -------------- Feature-area ----------- */
 	.section-padding { padding: 50px 0px 0px; }
 	.feature-box-style2 .feature-box-containt { width: 90%; }
@@ -453,6 +455,12 @@
 		width: 100%;
 		text-align: center;
 	}
+
+	.slider-list .item.active .revive2 {
+		-webkit-animation: fadeInRight 1100ms ease-in-out;
+		animation: fadeInRight 1100ms ease-in-out;
+	}
+
 	.language-box { display: none; }
 	.social-icons ul { margin-top: 6%; }
 	.social-icons ul li { margin-left: 5px; }
@@ -493,7 +501,7 @@
 		z-index: -1;
 		position: relative;
 	}
-	.carousel-captions h1 { font-size: 40px; }
+	.carousel-captions h1 { font-size: 20px; }
 	.carousel-captions {
 		top: calc(50% - 350px/2);
 	}
@@ -509,7 +517,7 @@
 		width: 90%;
 	}
 	.feature-box-style2:hover span { display: none; }
-	.graphic-content h2{ font-size: 30px; }
+	.graphic-content h2{ font-size: 20px; }
 	.graphic-content{
 		position: relative;
 		top: -75px;
@@ -542,10 +550,11 @@
 		display: inline;
 }
 	.features-list {
-		width: 291px;
+		width: 320px;
 		display: inline-block;
 		left: calc(50% - 140px);
 		position: relative;
+		font-size: 15px;
 	}
 	/* -------------- Team-area ----------- */
 	a#prev, a#next{ display: none; }
