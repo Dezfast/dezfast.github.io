@@ -1829,3 +1829,6 @@ ul.categories li:last-child, ul.categories-right li:last-child {
 	cursor: pointer;
 	color: #252525;
 }
+iframe{
+    width: 100%;
+}
